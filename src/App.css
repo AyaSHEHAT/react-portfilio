@@ -44,6 +44,8 @@
   --primary-white:white;
   --primary-orange:orange;
   --primary-dark:rgba(0, 0, 0, 0);
+  --primary-red:#ef4035;
+  --primary-hover-red:#f33501;
 }
 
 body{
@@ -75,3 +77,56 @@ nav ul li{
   
 }
 
+
+
+/******************Header*******************/
+
+.header-wraper{
+  position:relative;
+  background-image: url(images/background-header.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+ /********************* Typed Text********************/
+ .typed-text{
+  font-size: 2rem;
+  color: var(--primary-orange);
+ }
+
+ /*******Header main BUTTON*********/
+
+ .btn-main-offer{
+  text-decoration: none;
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0rem;
+  padding:0.5rem 0.6rem 0.6rem 0.6rem;
+  color: var(--primary-white);
+  margin: 2rem;
+ }
+ .btn-main-offer:hover{
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+
+ }

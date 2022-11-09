@@ -4,6 +4,8 @@ import  'bootstrap/dist/css/bootstrap.min.css';
 const Login = () => {
   return (
     <div className='login-form'>
+      <h3>Sign Up</h3>
+      <hr/>
     <form className="row g-3 needs-validation mt-auto mb-3" novalidate>
        
   <div className='col'>

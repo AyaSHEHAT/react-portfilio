@@ -46,10 +46,12 @@
   --primary-dark:rgba(0, 0, 0, 0);
   --primary-red:#ef4035;
   --primary-hover-red:#f33501;
+  --primary-foshya:#f24b6a;
 }
 
 body{
   font-family: 'Bitter', 'Times New Roman', Times, serif;
+  background-color: black;
 }
 /******************NavBar*******************/
 
@@ -130,3 +132,28 @@ nav ul li{
   color: var(--primary-white);
 
  }
+ .login-form{
+  /* background-color: black; */
+  display: block;
+  text-align: center;
+ }
+ .login-form form{
+  color: var(--primary-white);
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+ }
+ .login-form form input{
+  background-color: black;
+  border: 0.125rem solid var(--primary-foshya);
+  border-radius: 1.6rem;
+ 
+ }
+ form button{
+  text-align: center;
+  color: var(--primary-white) !important;
+  background-color: var(--primary-foshya) !important;
+  border-radius: 1.6rem !important;
+ }
+ 

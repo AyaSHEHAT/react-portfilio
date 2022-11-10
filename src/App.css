@@ -46,7 +46,7 @@
   --primary-dark:rgba(0, 0, 0, 0);
   --primary-red:#ef4035;
   --primary-hover-red:#f33501;
-  --primary-foshya:#f24b6a;
+  --primary-foshya:#f71f46;
 }
 
 body{
@@ -156,8 +156,21 @@ nav ul li{
   background-color: var(--primary-foshya) !important;
   border-radius: 1.6rem !important;
  }
+ form button:hover{
+  color: var(--primary-white) !important;
+  background-color: var(--primary-dark) !important;
+  border: 0.125rem solid var(--primary-foshya) !important;
+ 
+ }
  .login-form h3{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: var(--primary-white);
  }
+ .login-form hr{
+  width: 20.25rem;
+  background-color:var(--primary-foshya);
+  border: solid var(--primary-foshya) 0.25rem;
+  margin:  0.625rem auto;
+  border-radius: 0.125rem;
+} 
  

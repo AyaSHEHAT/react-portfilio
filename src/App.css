@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -40,51 +41,55 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Roboto+Condensed:wght@300&display=swap');
 
-:root{
-  --primary-white:white;
-  --primary-orange:orange;
-  --primary-dark:rgba(0, 0, 0, 0);
-  --primary-red:#ef4035;
-  --primary-hover-red:#f33501;
-  --primary-foshya:#f71f46;
+:root {
+  --primary-white: white;
+  --primary-orange: orange;
+  --primary-dark: rgba(0, 0, 0, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-foshya: #f71f46;
+  --primary-Whitefoshya: #ff708a;
 }
 
-body{
+body {
   font-family: 'Bitter', 'Times New Roman', Times, serif;
   background-color: black;
 }
+
 /******************NavBar*******************/
 
-.logo{
+.logo {
   width: 4rem;
-  border-radius:4rem;
+  border-radius: 4rem;
 }
 
 /* --------Menu Links------------ */
-nav .nav-link{
+nav .nav-link {
   font-weight: lighter;
 }
-nav ul li{
+
+nav ul li {
   text-transform: uppercase;
 }
-.navbar-nav > li > a{
-  margin-left:0.75rem;
-  margin-right:0.75rem;
+
+.navbar-nav>li>a {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: solid 0.1875rem var(--primary-dark) ;
+  border-top: solid 0.1875rem var(--primary-dark);
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-  border-top: solid 0.1875rem var(--primary-orange) ;
-  
+.navbar-nav .nav-item .nav-link:hover {
+  border-top: solid 0.1875rem var(--primary-foshya);
+
 }
 
 
 
 /******************Header*******************/
 
-.header-wraper{
-  position:relative;
+.header-wraper {
+  position: relative;
   background-image: url(images/background-header.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -93,7 +98,7 @@ nav ul li{
   height: 90vh;
 }
 
-.main-info{
+.main-info {
   display: flex;
   position: absolute;
   top: 0;
@@ -106,71 +111,143 @@ nav ul li{
   text-align: center;
 }
 
-.main-info h1{
-  color: var(--primary-orange);
+.main-info h1 {
+  color: var(--primary-foshya);
   text-transform: uppercase;
 }
- /********************* Typed Text********************/
- .typed-text{
+
+/********************* Typed Text********************/
+.typed-text {
   font-size: 2rem;
   color: var(--primary-orange);
- }
+}
 
- /*******Header main BUTTON*********/
+/*******Header main BUTTON*********/
 
- .btn-main-offer{
+.btn-main-offer {
   text-decoration: none;
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-foshya);
+  background-color: var(--primary-foshya);
   text-transform: uppercase;
-  border-radius: 0rem;
-  padding:0.5rem 0.6rem 0.6rem 0.6rem;
+  border-radius: 0.9rem;
+  padding: 0.5rem 0.6rem 0.6rem 0.6rem;
   color: var(--primary-white);
   margin: 2rem;
- }
- .btn-main-offer:hover{
-  background-color: var(--primary-red);
+}
+
+.btn-main-offer:hover {
+  background-color: var(--primary-Whitefoshya);
   color: var(--primary-white);
 
- }
- .login-form{
+}
+
+/* *********Login & SignUp ********** */
+.login-form {
   /* background-color: black; */
   display: block;
   text-align: center;
- }
- .login-form form{
+}
+
+.login-form form {
   color: var(--primary-white);
   max-width: 35rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
- }
- .login-form form input{
+}
+
+.login-form form input {
   background-color: black;
   border: 0.125rem solid var(--primary-foshya);
   border-radius: 1.6rem;
- 
- }
- form button{
+
+}
+
+form button {
   text-align: center;
   color: var(--primary-white) !important;
   background-color: var(--primary-foshya) !important;
   border-radius: 1.6rem !important;
- }
- form button:hover{
+  border: 0.125rem solid var(--primary-foshya) !important;
+}
+
+form button:hover {
   color: var(--primary-white) !important;
   background-color: var(--primary-dark) !important;
   border: 0.125rem solid var(--primary-foshya) !important;
- 
- }
- .login-form h3{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.login-form h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: var(--primary-white);
- }
- .login-form hr{
+}
+
+.login-form hr {
   width: 20.25rem;
-  background-color:var(--primary-foshya);
+  background-color: var(--primary-foshya);
   border: solid var(--primary-foshya) 0.25rem;
-  margin:  0.625rem auto;
+  margin: 0.625rem auto;
   border-radius: 0.125rem;
-} 
- 
+}
+
+.form-check a {
+  text-decoration: none;
+  color: var(--primary-foshya);
+}
+
+.form-check a:hover {
+  text-decoration: underline;
+  color: var(--primary-Whitefoshya);
+}
+
+
+
+/* ************footer********************* */
+
+footer {
+  background-color: #a0a0a096;
+}
+
+.footer p {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+}
+.footer-h6 {
+  font-size: 1.5625rem;
+  font-family: serif;
+  font-weight: bold;
+  color: var(--primary-foshya);
+}
+
+.followUs ul li {
+  display: inline-block;
+  margin: 2px 7px;
+}
+
+.followUs ul li a {
+  padding-right: 2px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+.footerpages a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footerpages a:hover,
+.followUs ul li a:hover {
+  color: var(--primary-Whitefoshya);
+
+}
+
+.contact {
+  text-transform: capitalize;
+
+}

@@ -49,6 +49,7 @@
   --primary-hover-red: #f33501;
   --primary-foshya: #f71f46;
   --primary-Whitefoshya: #ff708a;
+  --primary-gray:rgb(93, 75, 75);
 }
 
 body {
@@ -206,7 +207,7 @@ form button:hover {
 /* ************footer********************* */
 
 footer {
-  background-color: #a0a0a096;
+  background-color: var(--primary-gray);
 }
 
 .footer p {

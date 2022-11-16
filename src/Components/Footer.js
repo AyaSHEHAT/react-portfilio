@@ -44,11 +44,11 @@ const Footer = ()=>{
                             <div className="col-md-3 col-sm-6 text-center  followUs">
                                 <h6 className="footer-h6">Follow Us : </h6>
                                 <ul className="followUs">
-                                <li><a href="#"><FontAwesomeIcon icon={faFacebook} style={{ color:"#fff" , fontSize:"1.5em"  } }  /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon={faTwitterSquare} style={ { color:"#fff" , fontSize:"1.5em" } }  /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon={faInstagramSquare} style={ { color:"#fff" , fontSize:"1.5em" } }  /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} style={ { color:"#fff" , fontSize:"1.5em" } }  /></a></li>
-                                    <li><a href="#"><FontAwesomeIcon icon={faGithubSquare} style={ { color:"#fff" , fontSize:"1.5em" } }  /></a></li>
+                                <li><a href="#"><FontAwesomeIcon icon={faFacebook} style={{ color:"#fff" , fontSize:"1.5em"  } }  className='fontawesome'/></a></li>
+                                    <li><a href="#"><FontAwesomeIcon icon={faTwitterSquare} style={ { color:"#fff" , fontSize:"1.5em" } }  className='fontawesome'/></a></li>
+                                    <li><a href="#"><FontAwesomeIcon icon={faInstagramSquare} style={ { color:"#fff" , fontSize:"1.5em" } } className='fontawesome' /></a></li>
+                                    <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} style={ { color:"#fff" , fontSize:"1.5em" } } className='fontawesome' /></a></li>
+                                    <li><a href="#"><FontAwesomeIcon icon={faGithubSquare} style={ { color:"#fff" , fontSize:"1.5em" } }  className='fontawesome'/></a></li>
                                     
                                     </ul> 
                             </div>

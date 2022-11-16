@@ -73,7 +73,7 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav>li>a {
+.navbar-nav>li>.nav-link {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   color: var(--primary-white) !important;
@@ -115,12 +115,6 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-foshya);
   text-transform: uppercase;
-}
-
-/********************* Typed Text********************/
-.typed-text {
-  font-size: 2rem;
-  color: var(--primary-orange);
 }
 
 /*******Header main BUTTON*********/
@@ -192,12 +186,12 @@ form button:hover {
   border-radius: 0.125rem;
 }
 
-.form-check a {
+.form-check .link {
   text-decoration: none;
   color: var(--primary-foshya);
 }
 
-.form-check a:hover {
+.form-check .link:hover {
   text-decoration: underline;
   color: var(--primary-Whitefoshya);
 }
@@ -234,7 +228,10 @@ footer ul {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+.followUs .fontawesome:hover{
+  transform: rotateX(45deg);
+  color: var(--primary-foshya) !important;
+}
 
 .footerpages a {
   color: white;

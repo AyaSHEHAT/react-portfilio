@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../images/logo-blue.png'
+import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 const NavBar = () => {
@@ -20,11 +21,12 @@ const NavBar = () => {
         </li>
        
         <li className="nav-item">
-        <a className="nav-link" href="#">services</a>  
-
+        {/* <a className="nav-link" href="#">  Login</a>   */}
+          <Link to='/login'  className="nav-link">Login</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">how it work</a>
+          {/* <a className="nav-link" href="#">how it work</a> */}
+          <Link to='/signup'  className="nav-link">SignUp</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">portfolio</a>

@@ -5,20 +5,22 @@ import Header from './Components/Header';
 import Login from './Components/Login';
 import SignUp from './Components/SignUp';
 import Footer from './Components/Footer';
-
+import {Route ,Link , Routes} from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
-      
+    <div  className="App">
 
-      <NavBar />
-      <Header/>
-      <SignUp/>
-      <Login/>
-      <Footer/>
      
+      <NavBar /> 
+      <Header/> 
+      <Routes>
+         <Route path='/signup' element={ <SignUp/>}/> 
+         <Route  path='/login' element={<Login/>}/> 
+         
+      </Routes>
+      <Footer/>
     </div>
     
 

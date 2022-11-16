@@ -1,5 +1,6 @@
 import React from 'react';
 import  'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom';
 
 
 const Login = () => {
@@ -26,8 +27,7 @@ const Login = () => {
   </div>
   <div className="col-12">
     <div className="form-check">
-     
-     <p>Are you don't have an account? <a href='#'>SignUp</a></p>
+     <p>Are you don't have an account? <Link to='/signup' className='link'>SignUp</Link></p>
     </div>
   </div>
   <div className="d-grid gap-2 col-12">
